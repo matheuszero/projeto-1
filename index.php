@@ -27,7 +27,13 @@
 			</ul> 
 
 		</div>
-		<div class="Conteudo"> </div>
+
+		<div class="Conteudo"> 
+			<select>
+        		<option value="bauseguranca.php">Serviços de Segurança</option>
+        		<option action="baugerais.php">Serviços Gerais</option>
+      		</select>
+     	 </div>
 			
 				</form><span> WebSite &copy - Todos os direitos reservados </span> <br />
 			<a href="#">SOBRE </a> | <a href="view_users.php"> CONTATOS </a> | <a href="create_users.php"> CADASTRO </a> | <a href="sair.php"> SAIR </a>
