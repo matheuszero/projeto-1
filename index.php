@@ -21,7 +21,7 @@
 		<div class="menu">
 			<ul>
 				<li> <a href=""> Home </a> </li>
-				<li> <a href=""> Sobre </a> </li>
+				<li> <a href="about_for_users.html"> Sobre </a> </li>
 				<li><a href="view_users.php"> Contatos </a></li>
 			
 			</ul> 
@@ -36,7 +36,7 @@
      	 </div>
 			
 				</form><span> WebSite &copy - Todos os direitos reservados </span> <br />
-			<a href="#">SOBRE </a> | <a href="view_users.php"> CONTATOS </a> | <a href="create_users.php"> CADASTRO </a> | <a href="sair.php"> SAIR </a>
+			<a href="about_for_users.html">SOBRE </a> | <a href="view_users.php"> CONTATOS </a> | <a href="create_users.php"> CADASTRO </a> | <a href="sair.php"> SAIR </a>
 			</div>
 		</div>
 	</body>
