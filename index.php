@@ -3,7 +3,7 @@
 ?>
 <?php
 	session_start();
-	if($_SESSION['dados'] == false){
+	if($_SESSION['logado'] == false){
 		header('location:entrada.html');
 		exit();
 	}
@@ -22,8 +22,7 @@
 			<ul>
 				<li> <a href=""> Home </a> </li>
 				<li> <a href=""> Sobre </a> </li>
-				<li> <a href=""> Contato </a> </li>
-				<li> <a href=""> Admin </a> </li>
+				<li><a href="view_users.php"> Contatos </a></li>
 			
 			</ul> 
 
@@ -31,7 +30,7 @@
 		<div class="Conteudo"> </div>
 			
 				</form><span> WebSite &copy - Todos os direitos reservados </span> <br />
-			<a href="#">SOBRE </a> | <a href="#"> CONTATO </a> | <a href="cadastro.php"> CADASTRO </a>
+			<a href="#">SOBRE </a> | <a href="view_users.php"> CONTATOS </a> | <a href="create_users.php"> CADASTRO </a> | <a href="sair.php"> SAIR </a>
 			</div>
 		</div>
 	</body>
