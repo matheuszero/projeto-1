@@ -6,4 +6,5 @@
 	$email = $_POST['email'];
 	array_push($_SESSION['dados'], [$nome , $senha , $numero , $email]);
 	header('location: entrada.html')
+	// redirecionar a páginda de entrada
 ?>
