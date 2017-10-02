@@ -30,8 +30,8 @@
 
 		<div class="Conteudo"> 
 			<select>
-        		<option value="bauseguranca.php">Serviços de Segurança</option>
-        		<option action="baugerais.php">Serviços Gerais</option>
+        		<option action="bauseguranca.php" name="segurança">Serviços de Segurança</option>
+        		<option action="baugerais.php" name="gerais">Serviços Gerais</option>
       		</select>
      	 </div>
 			
