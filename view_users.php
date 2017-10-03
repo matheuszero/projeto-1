@@ -11,7 +11,7 @@
 	<body>
 		<?php foreach ($_SESSION['dados'] as $item): ?>
 			<ul>
-				<li><?= $item[0] , " - ", $item[2] ," - ", $item[3] ?></li>
+				<li><?= $item[0] , " - ", $item[2] ," - ", $item[3] , " - ", $item[4] ?></li>
 			</ul>
 		<?php endforeach ?>
 		<a href="index.php"> Voltar </a>

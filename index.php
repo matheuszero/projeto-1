@@ -33,6 +33,8 @@
         		<option action="bauseguranca.php" name="segurança">Serviços de Segurança</option>
         		<option action="baugerais.php" name="gerais">Serviços Gerais</option>
       		</select>
+      		<input type="number" name="qtdFuncionario">
+      		<input type="submit" value="Enviar">
      	 </div>
 			
 				</form><span> WebSite &copy - Todos os direitos reservados </span> <br />
