@@ -13,6 +13,7 @@
 		<meta charset="utf-8">
 		<title>Web-site MK</title>
 		<link rel="stylesheet"   type="text/css" href="estilo.css"/>
+		<script src="style.js"></script>
 	</head>
 	<body>
 		<div class="container">
@@ -29,12 +30,19 @@
 		</div>
 
 		<div class="Conteudo"> 
-			<select>
-        		<option action="bauseguranca.php" name="segurança">Serviços de Segurança</option>
-        		<option action="baugerais.php" name="gerais">Serviços Gerais</option>
+			<select id="seletor">
+				<option value=""> - </option>
+        		<option value="segurança">Serviços de Segurança</option>
+        		<option  value="gerais">Serviços Gerais</option>
       		</select>
-      		<input type="number" name="qtdFuncionario">
-      		<input type="submit" value="Enviar">
+      		<form action="bauseguranca.php" id="f1" class="hide">
+	      		<input type="number" name="qtdFuncionario">
+	      		<input type="submit" value="Enviar">
+      		</form>
+      		<form action="baugerais.php" id="f2" class="hide">
+	      		<input type="number" name="qtdFuncionario">
+	      		<input type="submit" value="Enviar">
+      		</form>
      	 </div>
 			
 				</form><span> WebSite &copy - Todos os direitos reservados </span> <br />

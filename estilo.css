@@ -64,4 +64,6 @@ body {
   	text-decoration: none;
   	color: #b1b0b0;
   }
-
+  .hide{
+    display: none;
+  }
