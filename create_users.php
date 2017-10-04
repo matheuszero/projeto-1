@@ -3,6 +3,7 @@
 	if (!isset($_SESSION['dados'])) {
         $_SESSION['dados'] = array();
     } 
+//sessao de dados
 ?>
 <html>
 	<head>
@@ -17,5 +18,6 @@
         	email: <input type="text" name="email"><br>
         	<input type="submit">
     	</form>
-	</body>
+
+    </body>
 </html>
