@@ -5,14 +5,15 @@ window.onload = function() {
 
     seletor.onchange = function() {
         if (seletor.value == 'segurança') {
-            f1.className = '';
+            f1.className = 'cor';
             f2.className = 'hide';
         } else if (seletor.value == 'gerais') {
             f1.className = 'hide';
-            f2.className = '';
+            f2.className = 'cor';
         } else {
             f1.className = 'hide';
             f2.className = 'hide';
         }
     }
+}
 

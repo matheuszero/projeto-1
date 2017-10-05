@@ -35,6 +35,7 @@
         		<option value="segurança">Serviços de Segurança</option>
         		<option  value="gerais">Serviços Gerais</option>
       		</select>
+      		
       		<form action="bauseguranca.php" id="f1" class="hide">
 	      		<input type="number" name="qtdFuncionario">
 	      		<input type="submit" value="Enviar">

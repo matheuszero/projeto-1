@@ -1,6 +1,9 @@
 <?php
 	session_start();
-	$gerais = $_POST['gerais'];
-	array_push($_SESSION['conteudo'], [$gerais , ]);
+	if (!isset($_SESSION['itens2'])) {
+        $_SESSION['itens2'] = array();
+    } 
+	$qtd = $_POST['qtdFuncionarios'];
+	array_push($_SESSION['itens2'], [$qtd , ] );
 	header('location: index.php');
 ?>

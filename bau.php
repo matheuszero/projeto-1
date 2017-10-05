@@ -8,4 +8,4 @@
 	array_push($_SESSION['dados'], [$nome , $senha , $sobrenome ,  $numero , $email]);
 	header('location: entrada.html')
 	// redirecionar a páginda de entrada
-?>
+?>	

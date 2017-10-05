@@ -1,6 +1,9 @@
 <?php
 	session_start();
-	$seguranca = $_POST['seguranca'];
-	array_push($_SESSION['dados'], [$seguranca , ]);
+	if (!isset($_SESSION['itens1'])) {
+        $_SESSION['itens1'] = array();
+    } 
+	$qtd = $_POST['qtdFuncionarios'];
+	array_push($_SESSION['itens1'], [$qtd , ] );
 	header('location: index.php');
 ?>
