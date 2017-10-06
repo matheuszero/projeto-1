@@ -4,6 +4,7 @@
 		header('location: entrada.html');
 		exit();
 	}
+	//teste
 ?>
 <html>
 	<head>
