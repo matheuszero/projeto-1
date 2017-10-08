@@ -5,5 +5,5 @@
     } 
 	$qtd = $_POST['qtdFuncionario'];
 	array_push($_SESSION['itens1'], [$qtd , ] );
-	header('location: index.php');
+	header('location: login.php');
 ?>

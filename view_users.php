@@ -15,6 +15,6 @@
 				<li><?= $item[0] , " - ", $item[2] ," - ", $item[3] , " - ", $item[4] ?></li>
 			</ul>
 		<?php endforeach ?>
-		<a href="index.php"> Voltar </a>
+		<a href="login.php"> Voltar </a>
 	</body>
 </html>	

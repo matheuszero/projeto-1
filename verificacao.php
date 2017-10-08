@@ -7,7 +7,7 @@
 		foreach ($_SESSION['dados'] as $item) {
 			if ($login == $item[0] && $senha == $item[1]) {
 				$_SESSION['logado'] = true;
-				header("location: index.php");
+				header("location: login.php");
 			}
 		}
 				echo "Nome ou senha está errado.";
