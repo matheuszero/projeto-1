@@ -12,8 +12,8 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Web-site MK</title>
-		<link rel="stylesheet"   type="text/css" href="estilo.css"/>
-		<script src="style.js"></script>
+		<link rel="stylesheet"   type="text/css" href="../css/estilo.css"/>
+		<script src="../javaScript/style.js"></script>
 	</head>
 	<body>
 		<div class="container">
