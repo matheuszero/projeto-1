@@ -12,7 +12,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Web-site MK</title>
-		<link rel="stylesheet"   type="text/css" href="../css/estilo.css"/>
+		<link rel="stylesheet"   type="text/css" href="css/estilo.css"/>
 		<script src="../javaScript/style.js"></script>
 	</head>
 	<body>
@@ -50,6 +50,9 @@
 			<a href="about_for_users.html">SOBRE </a> | <a href="view_users.php"> CONTATOS </a> | <a href="create_users.php"> CADASTRO </a> | <a href="sair.php"> SAIR </a>
 			</div>
 		</div>
+		<?php 
+		include "Rodape.php"
+		?>
 	</body>
 </html>
 <!-- modific: lipeh777 -->

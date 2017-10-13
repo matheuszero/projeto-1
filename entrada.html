@@ -1,16 +1,25 @@
+
 <html>
 	<head>
+		<meta charset="utf-8">
+		<title>Web-site MK</title>
+		<link rel="stylesheet"   type="text/css" href="css/estilo.css"/>
+		<script src="style.js"></script>
 	</head>
 	<body>
-		<div class="rodape"><div id="login">
-			<form action="verificacao.php" method="POST">
-				<div id="input">
-				<span> Usuario </span>
-				<input name="input_User" type="text" />
-				<span> Senha </span>
-				<input name="input_Pass" type="password" />
-				<input type="submit" value="Login" />								
+		<div class="container">
+			<div class="logo">
+			<img src="Mortal.png" alt="logo do Site" title="logo do blog Web-site" /> 
+				<form action="verificacao.php" method="POST">
+					<span> Usuario </span>
+					<input name="input_User" type="text" size="30" />
+					<span> Senha </span>
+					<input name="input_Pass" type="password"/>
+					<input type="submit" value="Login"/>
+				</form>	
+				<a href="create_users.php"> Cadastro </a>
+			</div>
 		</div>
-		<a href="create_users.php"> Cadastro </a>
 	</body>
 </html>
+<!-- modific: lipeh777 -->

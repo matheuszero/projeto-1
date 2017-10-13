@@ -1,0 +1,13 @@
+.rodape{
+	float: left;
+	width: 100%;
+	background-color: #2251dd;
+	color: black;
+}
+.tabela td{
+	text-align: center;
+	padding: 20px;
+}
+.rodape p{
+	text-align: center;
+}
