@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<link rel="stylesheet" type="text/css" href="css/rodape.css">
+	<link rel="stylesheet" type="text/css" href="">
 </head>
 <body>
 	
@@ -13,7 +13,7 @@
 	</tr>	
 	</table>
 	<p>Projeto desenvolvido por estudantes da Instituição Federal de Educação, Ciência e Tecnologia de Pernambuco</p>
-	<p>© 2017 - Todos os Direitos Reservados - SSexpress<p> 
+	<p>© 2017 - Todos os Direitos Reservados - <p> 
 </div>
 </body>
 </html>

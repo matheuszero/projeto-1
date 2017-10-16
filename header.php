@@ -25,20 +25,25 @@
 			color: black;
 			border-bottom:45px solid white;
 			}
+			img{
+				width: 270px;
+				height: 105px;
+				margin-left: 240px;
+			}
 			
 		</style>
 	</head>
 		<header>
-			<img src="">
+			<img src="Mortal.png">
 					
 						<nav id="menu">
 						    <ul>
 						        <li>
-						        <li><a href="">Cadastro </a></li>
-						        <li><a href="">Entrar</a></li>
-								<li><a href="">Home </a></li>
-								<li><a href="">Fundadores</a></li>
-								<li><a href="">Usuários</a></li>
+						        <li><a href="create_users.php">Cadastro </a></li>
+						        <li><a href="entrada.html">Entrar</a></li>
+								<li><a href="index.php">Home </a></li>
+								<li><a href="about_for_users.html">Fundadores</a></li>
+								<li><a href="view_users.php">Usuários</a></li>
 							</ul>
 						</nav>
 	</header>

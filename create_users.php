@@ -16,8 +16,21 @@
         	Senha: <input type="password" name="senha"><br>
         	Telefone: <input type="number" name="numero"><br>
         	email: <input type="text" name="email"><br>
-        	<input type="submit">
-    	</form>
+        </form>
+        <select id="seletor">
+             <option value=""> - </option>
+            <option value="segurança">Serviços de Segurança</option>
+            <option  value="gerais">Serviços Gerais</option>
+        </select>
+       <form action="bauseguranca.php" id="f1" class="hide">
+            <input type="number" name="qtdFuncionario">
+            <input type="submit" value="Enviar">
+        </form>
+        <form action="baugerais.php" id="f2" class="hide">
+            <input type="number" name="qtdFuncionario">
+            <input type="submit" value="Enviar">
+        </form>
+    	<input type="submit">
 
     </body>
 </html>
