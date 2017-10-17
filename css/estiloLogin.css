@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+    font-family: arial;
+    border-radius: 0.5em;
+}
+form {
+    width: 25vw;
+    margin: auto;
+    margin-top: 1em;
+}
+h1, h2 {
+    text-align: center;
+}
+input {
+    width: 100%;
+    font-size: 1em;
+    margin-bottom: 0.7em;
+
+    background: white;
+    border: 1px solid gray;
+}
+.btn-lg {
+    background: black;
+    color: white;
+}
+a{
+   color: black;
+}

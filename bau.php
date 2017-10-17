@@ -5,7 +5,8 @@
 	$sobrenome = $_POST['sobrenome'];
 	$numero = $_POST['numero'];
 	$email = $_POST['email'];
-	array_push($_SESSION['dados'], [$nome , $senha , $sobrenome ,  $numero , $email]);
+	$serviço = $_POST['serviço'];
+	array_push($_SESSION['dados'], [$nome , $senha , $sobrenome ,  $numero , $email , $serviço]);
 	header('location: entrada.html')
 	// redirecionar a páginda de entrada
 ?>	

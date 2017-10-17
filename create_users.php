@@ -7,6 +7,7 @@
 ?>
 <html>
 	<head>
+        <link rel="stylesheet"   type="text/css" href="css/estiloLogin.css"/>
 	</head>
 	<body>
 		<h1>Cadastro</h1>
@@ -16,21 +17,12 @@
         	Senha: <input type="password" name="senha"><br>
         	Telefone: <input type="number" name="numero"><br>
         	email: <input type="text" name="email"><br>
+            Qual tipo de serviço?<br>
+            <input type="text" name="serviço">
+    	   <input type="submit">
         </form>
-        <select id="seletor">
-             <option value=""> - </option>
-            <option value="segurança">Serviços de Segurança</option>
-            <option  value="gerais">Serviços Gerais</option>
-        </select>
-       <form action="bauseguranca.php" id="f1" class="hide">
-            <input type="number" name="qtdFuncionario">
-            <input type="submit" value="Enviar">
-        </form>
-        <form action="baugerais.php" id="f2" class="hide">
-            <input type="number" name="qtdFuncionario">
-            <input type="submit" value="Enviar">
-        </form>
-    	<input type="submit">
+        <a href="entrada.html"> Voltar </a>
+       
 
     </body>
 </html>

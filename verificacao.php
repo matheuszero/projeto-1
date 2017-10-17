@@ -7,10 +7,14 @@
 		foreach ($_SESSION['dados'] as $item) {
 			if ($login == $item[0] && $senha == $item[1]) {
 				$_SESSION['logado'] = true;
-				header("location: login.php");
+				header("location:index.php");
+			}
+			else{
+				echo "Senha ou nome do usuário estão incorretos.";
 			}
 		}
-				echo "Nome ou senha está errado.";
+			echo "Senha ou nome estão errados. Ou você não é cadastrado!"
+				header("location: create_users.php");
 	} 
 	
 ?>
