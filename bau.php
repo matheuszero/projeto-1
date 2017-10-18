@@ -7,6 +7,6 @@
 	$email = $_POST['email'];
 	$serviço = $_POST['serviço'];
 	array_push($_SESSION['dados'], [$nome , $senha , $sobrenome ,  $numero , $email , $serviço]);
-	header('location: entrada.html')
+	header('location: entrada.php');
 	// redirecionar a páginda de entrada
 ?>	

@@ -3,7 +3,7 @@
 	if (!isset($_SESSION['dados'])) {
         $_SESSION['dados'] = array();
     } 
-//sessao de dados
+    include "header.php"
 ?>
 <html>
 	<head>
@@ -19,9 +19,8 @@
         	email: <input type="text" name="email"><br>
             Qual tipo de serviço?<br>
             <input type="text" name="serviço">
-    	   <input type="submit">
+    	   <input  class="btn-lg" type="submit" value="Cadastro"/>
         </form>
-        <a href="entrada.html"> Voltar </a>
        
 
     </body>

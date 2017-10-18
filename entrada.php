@@ -1,4 +1,6 @@
-
+<?php
+	include "header.php"
+?>
 <html>
 	<head>
 		<meta charset="utf-8">
@@ -14,7 +16,6 @@
 			<input name="input_Pass" type="password"/>
 			<input  class="btn-lg" type="submit" value="Login"/>
 		</form>	
-		<a class="btn-lg" href="create_users.php"> Cadastro </a>
 	</body>
 </html>
 <!-- modific: lipeh777 -->

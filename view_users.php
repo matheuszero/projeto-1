@@ -1,7 +1,7 @@
 <?php
 	session_start();
 	if ($_SESSION['dados'] == false) {
-		header('location: entrada.html');
+		header('location: entrada.php');
 		exit();
 	}
 	//teste
@@ -15,6 +15,5 @@
 				<li><?= $item[0] , " - ", $item[2] ," - ", $item[3] , " - ", $item[4] ?></li>
 			</ul>
 		<?php endforeach ?>
-		<a href="login.php"> Voltar </a>
 	</body>
 </html>	
