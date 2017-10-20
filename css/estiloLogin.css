@@ -26,3 +26,8 @@ input {
 a{
    color: black;
 }
+#esquerda {
+    display: inline;
+    width: 83%;
+    float: right;
+}
