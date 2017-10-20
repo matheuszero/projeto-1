@@ -2,6 +2,10 @@
 <?php
   session_start();
 	include "header.php";
+  if ($_SESSION['dados'] == false) {
+    header('location: entrada.php');
+    exit();
+  }
 
 ?>
 <html>

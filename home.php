@@ -1,6 +1,10 @@
 
 <?php
-	include "header.php"
+	include "firstheader.php";
+  if ($_SESSION['dados'] == false) {
+    header('location: entrada.php');
+    exit();
+  }
 ?>
 <html>
 	<head>
