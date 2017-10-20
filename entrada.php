@@ -10,7 +10,7 @@
 	</head>
 	<body>
 		<form action="verificacao.php" method="POST">
-			<span> Usuario </span>
+			<span> Nome </span>
 			<input name="input_User" type="text" size="30" />
 			<span> Senha </span>
 			<input name="input_Pass" type="password"/>

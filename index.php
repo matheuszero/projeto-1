@@ -1,6 +1,12 @@
 
 <?php
-	include "header.php"
+  session_start();
+	include "firstheader.php";
+  if ($_SESSION['dados'] == false) {
+    header('location: entrada.php');
+    exit();
+  }
+
 ?>
 <html>
 	<head>
@@ -28,15 +34,15 @@
       <!-- Wrapper for slides -->
         <div class="carousel-inner">
             <div class="item active">
-              <img src="novo.jpg" alt="mercado_de_servicos" style="margin: auto; width: 57%; height: 400px;">
+              <img src="imagens/novo.jpg" alt="mercado_de_servicos" style="margin: auto; width: 57%; height: 400px;">
             </div>
       
             <div class="item">
-              <img src="financas empresas.jpg" alt="servicos" style="margin: auto; width: 57%; height: 400px;">
+              <img src="imagens/financas empresas.jpg" alt="servicos" style="margin: auto; width: 57%; height: 400px;">
             </div>
       
             <div class="item">
-              <img src="financas issnvestir.jpg" alt="escolha" style="margin: auto; width: 57%; height: 400px;">
+              <img src="imagens/financas issnvestir.jpg" alt="escolha" style="margin: auto; width: 57%; height: 400px;">
             </div>
         </div>
     
