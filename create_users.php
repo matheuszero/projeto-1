@@ -7,7 +7,7 @@
 ?>
 <html>
 	<head>
-        <link rel="stylesheet"   type="text/css" href="css/estiloLogin.css"/>
+        <link rel="stylesheet" type="text/css" href="css/estiloLogin.css"/>
 	</head>
 	<body>
 		<h1>Cadastro</h1>
@@ -20,7 +20,5 @@
             Cpf: <input type="text" name="cpf">
     	   <input  class="btn-lg" type="submit" value="Cadastro"/>
         </form>
-       
-
     </body>
 </html>
