@@ -1,10 +1,7 @@
 <?php
 	session_start();
-	include "firstheader.php";
-	if($_SESSION['logado'] == false){
-		header('location:entrada.php');
-		exit();
-}
+	include "header.php";
+	
 ?>
 
 

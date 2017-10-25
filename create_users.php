@@ -3,7 +3,7 @@
 	if (!isset($_SESSION['dados'])) {
         $_SESSION['dados'] = array();
     } 
-    include "header.php"
+    include "header.php";  
 ?>
 <html>
 	<head>
@@ -11,14 +11,13 @@
 	</head>
 	<body>
 		<h1>Cadastro</h1>
-		<form action="bau.php" method="POST">
-        	Nome: <input type="text" name="nome"><br>
-        	Sobrenome: <input type="text" name="sobrenome"><br>
+		<form action="cadastrarUsuario.php" method="POST">
+        	Nome: <input type="text" name="nome_do_usuario"><br>
+        	Sobrenome: <input type="text" name="sobrenome_do_usuario"><br>
         	Senha: <input type="password" name="senha"><br>
-        	Telefone: <input type="number" name="numero"><br>
+        	Telefone: <input type="number" name="Numero_do_usuario"><br>
         	email: <input type="text" name="email"><br>
-            Qual tipo de serviço?<br>
-            <input type="text" name="serviço">
+            Cpf: <input type="text" name="cpf">
     	   <input  class="btn-lg" type="submit" value="Cadastro"/>
         </form>
        
