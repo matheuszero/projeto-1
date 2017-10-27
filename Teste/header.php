@@ -6,12 +6,12 @@
 	</head>
 	<body>
 		<header>
-				<img src="imagens/Mortal.png">
 				<nav id="menu">
 				    <ul>
 						<li><a href="index.php">Home </a></li>
+					    <li><a href="create_users.php">Cadastro </a></li>
 						<li><a href="about_for_users.php">Fundadores</a></li>
-						<li><a href="sair.php"> Sair </a></li>
+						<li><a href="entrada.php">Entrar</a></li>
 					</ul>
 				</nav>
 		</header>

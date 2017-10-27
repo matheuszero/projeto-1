@@ -6,7 +6,6 @@
 	</head>
 	<body>
 		<header>
-				<img src="imagens/Mortal.png">
 				<nav id="menu">
 				    <ul>
 						<li><a href="index.php">Home </a></li>

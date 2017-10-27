@@ -1,14 +1,14 @@
 
 #menu ul {
 	padding:6px;
-	background-color:black;
+	background-color:	black;
 	font:100% Tahoma;
 }
 
 #menu ul li { display: inline; }
  
 #menu ul li a {
-	background-color:black;
+	background-color:	black;
 	color: white;
 	text-decoration: none;
 	border-bottom:1px solid white;
@@ -25,4 +25,4 @@ img{
 	height: 105px;
 	margin-left: 240px;
 }
-			}
+			
