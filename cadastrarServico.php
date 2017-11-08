@@ -10,17 +10,16 @@
 	}
 
 	$usuario  = $_POST["nome_do_usuario"];
-	$prazo    = $_POST["sobrenome_do_usuario"];
-	$valor	  = $_POST["Numero_do_usuario"];
-	$serv 	  = $_POST["email"];
+	$prazo    = $_POST["prazo"];
+	$valor	  = $_POST["valor"];
+	$serv 	  = $_POST["serv"];
 
-	$sql = "INSERT INTO Create_Serv(Nome_User, Sobrenome_User, Senha_User, Email_User, Number_User, Cpf_User) 
-		VALUES(:nome, :sobrenome, :senha, :email, :numero, :cpf)";
+	$sql = "INSERT INTO Create_Serv(Prazo_Serv, Valor_Serv, Serv_Serv) 
+		VALUES(:prazo, :valor, :serv)";
 	$stmt = $conn->prepare( $sql );
-	$stmt->bindParam( ':nome', $nome );
-	$stmt->bindParam( ':sobrenome', $sobrenome);
-	$stmt->bindParam( ':senha', $senha );
-	$stmt->bindParam( ':email',$email );
+	$stmt->bindParam( ':prazo', $prazo );
+	$stmt->bindParam( ':valor', $valor);
+	$stmt->bindParam( ':serv', $serv );
 
 	$result = $stmt->execute();
 
