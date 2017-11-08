@@ -1,8 +1,5 @@
 <?php
 	session_start();
-	if (!isset($_SESSION['dados'])) {
-        $_SESSION['dados'] = array();
-    } 
     include "header.php";  
 ?>
 <html>
