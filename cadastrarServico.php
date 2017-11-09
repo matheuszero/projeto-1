@@ -1,7 +1,7 @@
 <?php  
-	$dbname = "id2900246_cadastroserv";
-	$usuario="id2900246_users";
-	$senha = "if2017";
+	$dbname = "id2900246_financasecustos";
+	$usuario="id2900246_rhodolfo";
+	$senha = "rfm2017";
 	try {
 	  	$conn = new PDO("mysql:host=localhost;dbname=$dbname", $usuario, $senha);
 	    $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
@@ -9,7 +9,6 @@
 	    echo 'ERROR: ' . $e->getMessage();
 	}
 
-	$usuario  = $_POST["nome_do_usuario"];
 	$prazo    = $_POST["prazo"];
 	$valor	  = $_POST["valor"];
 	$serv 	  = $_POST["serv"];
