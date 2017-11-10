@@ -5,7 +5,7 @@
 }
 ul li a{
     color: #efefef;
-    padding-left: 8px;
+    padding-left: 10px;
 }
 ul li a:hover{
     color: #efefef;
@@ -37,4 +37,13 @@ ul li a:hover{
 header{
     padding: 154px 0 100px;
     background-color: #007bff;
+}
+section {
+    padding: 130px 0;
+}
+h2,p,ul{
+    text-align: center;
+}
+#about{
+    background-color: #f8f9fa!important;
 }
