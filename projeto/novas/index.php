@@ -1,6 +1,7 @@
 <?php
+  session_start();
   if($_SESSION['logado'] == true){
-    header('location: index2.html')
+    header('location: index2.html');
   }
 ?>
 <!DOCTYPE html>
