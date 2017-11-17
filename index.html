@@ -13,20 +13,25 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Cabin:700' rel='stylesheet' type='text/css'>
+
     <!-- Custom styles for this template -->
-    <link href="css/scrolling-nav.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link href="css/grayscale.min.css" rel="stylesheet">
 
   </head>
 
   <body id="page-top">
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top" id="mainNav">
+    <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
       <div class="container">
         <a class="navbar-brand js-scroll-trigger" href="#page-top">Speed Manager</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+          Menu
+          <i class="fa fa-bars"></i>
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
@@ -34,68 +39,100 @@
               <a class="nav-link js-scroll-trigger" href="#about">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="#services">Informações</a>
+              <a class="nav-link js-scroll-trigger" href="#download">Registrar-se</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger" href="create_users.php">Login</a>
+              <a class="nav-link js-scroll-trigger" href="#contact">Contato</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger" href="#contact">Login</a>
             </li>
           </ul>
         </div>
       </div>
     </nav>
 
-    <header class="bg-primary text-white">
-      <div class="container text-center">
-        <h1>Speed Manager</h1>
-        <p class="lead">O site para micro empresas e grandes soluções</p>
+    <!-- Intro Header -->
+    <header class="masthead">
+      <div class="intro-body">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-8 mx-auto">
+              <h1 class="brand-heading" style="color: black;">Speed Manager</h1>
+              <a href="#about" class="btn btn-circle js-scroll-trigger">
+                <i class="fa fa-angle-double-down animated"></i>
+              </a>
+            </div>
+          </div>
+        </div>
       </div>
     </header>
 
-    <section id="about">
+    <!-- About Section -->
+    <section id="about" class="content-section text-center">
       <div class="container">
         <div class="row">
           <div class="col-lg-8 mx-auto">
-            <h2>Mostre seus serviços.</h2>
-            <p class="lead">Divulgue seus serviços para um publico maior.</p>
-            <ul>
-              <li>Complementar conteudos adicionais.</li>
-              <li>Complementar conteudos adicionais.</li>
-              <li>Complementar conteudos adicionais.</li>
-              <li>Complementar conteudos adicionais.</li>
+            <h2>O que é Speed Manager</h2>
+            <p>A Speed Manager é uma plataforma de auxilio aos micro e pequenos empreendedores, ajudando a divulgar o seu serviço oferecido e tambem ajudando aos clientes a procurarem os melhores serviços pelos melhores preços de acordo com sua necessidade!.</p
+            >
+            <p>Os usuários poderão cadastrar os seus serviços e divulgar seu trabalho assim como as empresas.</p>
+            <p>Os clientes poderão procurar com mais facilidade o serviço que deseja para a sua necessidade.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Download Section -->
+    <section id="download" class="download-section content-section text-center">
+      <div class="container">
+        <div class="col-lg-8 mx-auto">
+          <h2>Registrar-se</h2>
+          <p>Faça seu cadastro para saber como aproveitar nosso site.</p>
+          <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Cadastre-se aqui</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="content-section text-center">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <h2>Para mais informações</h2>
+            <p>Contate nosso pessoal para tirar suas duvidas...</p>
+            <ul class="list-inline banner-social-buttons">
+              <!-- <li class="list-inline-item">
+                <a href="https://twitter.com/SBootstrap" class="btn btn-default btn-lg">
+                  <i class="fa fa-twitter fa-fw"></i>
+                  <span class="network-name">Twitter</span>
+                </a>
+              </li> -->
+              <li class="list-inline-item">
+                <a href="https://github.com/BlackrockDigital/startbootstrap" class="btn btn-default btn-lg">
+                  <i class="fa fa-github fa-fw"></i>
+                  <span class="network-name">Github</span>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a href="https://plus.google.com/+Startbootstrap/posts" class="btn btn-default btn-lg">
+                  <i class="fa fa-google-plus fa-fw"></i>
+                  <span class="network-name">Google+</span>
+                </a>
+              </li>
             </ul>
           </div>
         </div>
       </div>
     </section>
 
-    <section id="services" class="bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Encontre um proficional mais perto de você.</h2>
-            <p class="lead">Conteudos Adicionais.</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="contact">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-8 mx-auto">
-            <h2>Saiba qual melhor profissional escolher.</h2>
-            <p class="lead">Conteudos Adicionais.</p>
-          </div>
-        </div>
-      </div>
-    </section>
+  
 
     <!-- Footer -->
-    <footer class="py-5 bg-dark">
-      <div class="container">
-        <p class="m-0 text-center text-white">Todos os direitos reservados da Speed Manager 2017.</p>
+    <footer>
+      <div class="container text-center">
+        <p>Todos os direitos reservados do Speed Manager 2017</p>
       </div>
-      <!-- /.container -->
     </footer>
 
     <!-- Bootstrap core JavaScript -->
@@ -105,8 +142,11 @@
     <!-- Plugin JavaScript -->
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
-    <!-- Custom JavaScript for this theme -->
-    <script src="js/scrolling-nav.js"></script>
+    <!-- Google Maps API Key - Use your own API key to enable the map feature. More information on the Google Maps API can be found at https://developers.google.com/maps/ -->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCRngKslUGJTlibkQ3FkfTxj3Xss1UlZDA&sensor=false"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/grayscale.min.js"></script>
 
   </body>
 
