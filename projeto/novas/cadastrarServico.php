@@ -27,5 +27,5 @@
 	    exit;
 	}	  
 	// echo $stmt->rowCount() . "linhas inseridas";
-	header("location: index2.html");
+	header("location: entrada.php");
 ?>
